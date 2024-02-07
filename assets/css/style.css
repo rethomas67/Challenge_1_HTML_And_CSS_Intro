@@ -194,8 +194,8 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
-.footer {
+/*change the div to be the footer element*/
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -203,6 +203,7 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+/*footer class replaced by footer element h2 formatting updated*/
+footer h2 {
   font-size: 20px;
 }
