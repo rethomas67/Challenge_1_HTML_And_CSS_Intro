@@ -31,10 +31,11 @@
     <!--changed the div to the element figure-->
     <figure class="hero"/></figure>
     <!--Use the div for blocks-->
-    <div class="content">
-        <!--Add sections instead of divs and add an id attribute to link to search engine optimization div for html blocks-->
+    <aside class="content">
+        <!--Add sections and aside tags instead of divs and add an id attribute to link to search engine optimization div for html blocks-->
+        <!--Added class link content to reduce css redundancy-->
         <section 
-            class="search-engine-optimization" 
+            class="search-engine-optimization link-content" 
             id="search-engine-optimization"
         >
           <img          
@@ -52,7 +53,7 @@
         </section>
         <section
           id="online-reputation-management"
-          class="online-reputation-management"
+          class="online-reputation-management link-content"
         >
           <img
             src="./assets/images/online-reputation-management.jpg"
@@ -69,7 +70,7 @@
           </p>
         </section>
         <section id="social-media-marketing" 
-                 class="social-media-marketing"
+                 class="social-media-marketing link-content"
         >
           <img
             src="./assets/images/social-media-marketing.jpg"
@@ -84,10 +85,11 @@
             your lead generation.
           </p>
         </section>
-      </div>
-      <!--add sections and div for the html blocks-->
-      <div class="benefits">
-        <section class="benefit-lead">
+    </aside>
+      <!--add sections and aside tags-->
+      <aside class="benefits">
+        <!--Changed each section with the generic class benefit section-->
+        <section class="benefit-section">
           <h3>Lead Generation</h3>
           <img src="./assets/images/lead-generation.png" alt="Lead Generation"/>
           <p>
@@ -95,7 +97,7 @@
             business, bringing customers directly to your website.
           </p>
         </section>
-        <section class="benefit-brand">
+        <section class="benefit-section">
           <h3>Brand Awareness</h3>
           <img src="./assets/images/brand-awareness.png" alt="Brand Awareness"/>
           <p>
@@ -103,7 +105,7 @@
             the search ranking and visibility for your business.
           </p>
         </section>
-        <section class="benefit-cost">
+        <section class="benefit-section">
           <h3>Cost Management</h3>
           <img src="./assets/images/cost-management.png" alt="Cost Management"/>
           <p>
@@ -111,7 +113,7 @@
             costs decrease, and you no longer need to advertise your page.
           </p>
         </section>
-      </div>
+    </aside>
       <footer>
         <!--Header in correct order-->
         <h4>Made with ❤️️ by Horiseon</h4>
